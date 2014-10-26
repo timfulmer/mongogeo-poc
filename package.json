@@ -1,0 +1,38 @@
+{
+  "name": "mongogeo-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept for inserting geo information into mongo, then querying it.",
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timfulmer/mongogeo-poc.git"
+  },
+  "keywords": [
+    "mongo",
+    "geo",
+    "queries"
+  ],
+  "author": "Tim Fulmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timfulmer/mongogeo-poc/issues"
+  },
+  "homepage": "https://github.com/timfulmer/mongogeo-poc",
+  "devDependencies": {
+    "chai-as-promised": "^4.1.1",
+    "chai": "^1.9.2",
+    "gulp": "^3.8.9",
+    "proxyquire": "^1.0.1",
+    "sinon": "^1.10.3",
+    "gulp-mocha": "^1.1.1",
+    "gulp-istanbul": "^0.3.1"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "restify": "^2.8.3",
+    "mongoose": "^3.8.18"
+  }
+}
